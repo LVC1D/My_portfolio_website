@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js"></script>
+    <link type="text/css" rel="stylesheet" src="./contact-style.css">
     <title>Document</title>
 </head>
 <body>
-    
+   <main>
+    <form action="submit" method="post">
+        <h1>
+            Fill in the form below to reach out to me.
+        </h1>
+            <br>
+        <label for="first-name">First name: </label> 
+        <input type="text" required name="name" id="first-name" placeholder="Alex">
+            <br>
+        <label for="last-name">Last name: </label> 
+        <input type="text" required name="name" id="last-name" placeholder="Ferguson">
+            <br>
+        <label for="email">Email address: </label> 
+        <input type="email" required name="email" id="email" placeholder="aferg123@email.com">
+            <br>
+        <label for="phone-number">(optional) Phone number: </label> 
+        <input type="text" name="phone-number" id="phone-number" placeholder="(555)-8754">
+            <br>
+        <label for="your-message">Write your message here: </label>
+        <textarea name="your-message" id="your-message" placeholder="write something..." rows="30" cols="10"></textarea>
+            <br>
+        <input type="button" value="Send a message" id="submit" name="submit">
+    </form>
+   </main>
 </body>
 </html>
