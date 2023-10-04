@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./main.js"></script>
-    <link type="text/css" rel="stylesheet" src="./contact-style.css">
-    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./contact-style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Contact Me</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <span id="logo">
+                Illia's Portfolio
+            </span>
+            <ul>
+                <a href="./index.html" ><li>About Me</li></a>
+                <a href="./projects.html" ><li>Projects</li></a>
+                <a href="./services.html" ><li>Services</li></a>
+                <a href="./contact-us.html" ><li>Message Me</li></a>
+            </ul>
+        </nav>
+    </header>
    <main>
     <form action="submit" method="post">
         <h1>
-            Fill in the form below to reach out to me.
+            Ready to collaborate or have questions? 
         </h1>
+        <p>Reach out to me through the form below:</p>
+        <form action="submit" method="post">
             <br>
         <label for="first-name">First name: </label> 
         <input type="text" required name="name" id="first-name" placeholder="Alex">
@@ -31,6 +47,7 @@
             <br>
         <input type="button" value="Send a message" id="submit" name="submit">
     </form>
+    <p>I look forward to connecting with you and exploring exciting possibilities together.</p>
    </main>
 </body>
 </html>

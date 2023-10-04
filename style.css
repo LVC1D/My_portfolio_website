@@ -1,0 +1,122 @@
+/* latin */
+@font-face {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/comfortaa/v45/1Pt_g8LJRfWJmhDAuUsSQamb1W0lwk4S4TbMDrMfJh1Zyc61YA.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Gruppo';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/gruppo/v21/WwkfxPmzE06v_ZW1XnrBGoIAUA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Martian Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/martianmono/v3/2V0PKIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnaTq9wXulPFk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Martian Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 100%;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/martianmono/v3/2V0PKIcADoYhV6w87xrTKjs4CYElh_VS9YA4TlTnaTq9wXulPFk.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header #logo {
+    font-family: 'Martian Mono';
+    color: #F1EFEF;  
+    font-weight: 700;
+    width: 100%;
+    height: 100%; 
+    text-align: left;
+    margin-left: 2.5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Martian Mono';
+}
+
+main {
+    position: relative;
+    top: 4.75rem;
+    text-align: center;
+    margin: auto 7rem;
+}
+
+p, footer {
+    font-family: 'Comfortaa';
+}
+
+body {
+    background-color: #191717;
+    color: #F1EFEF;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0rem;
+    z-index: 100;
+    width: 100%;
+    height: 4.5rem;
+    border-bottom: solid 1px #191717;
+    background-color: #191717;
+    display: block;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.875rem;
+    height: 2rem;
+  }
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: space-between;
+}
+  
+nav li {
+    list-style: none;
+    padding: 2rem;
+    font-family: 'Martian Mono';
+    padding: auto 2rem;
+}
+
+nav li:active {
+    color: whitesmoke;
+}
+
+nav a {
+    vertical-align: bottom;
+    font-size: 1rem;
+    color: whitesmoke;
+  }
+
+main {
+    
+}
+  
