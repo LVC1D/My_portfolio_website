@@ -1,0 +1,28 @@
+.projects-container {
+    display: block;
+    align-items: stretch;
+}
+
+.project-option {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    margin: auto 3rem;
+}
+
+.project-option img {
+    width: auto;
+   height: auto;
+   max-width: 640px;
+   max-height: 480px;
+}
+
+.description {
+    justify-self: center;
+    align-self: center;
+    height: auto;
+    flex-flow: column wrap;
+    padding: 0 4rem;
+    line-height: 1.6;
+}
