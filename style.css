@@ -71,9 +71,7 @@ nav li {
     padding: 0 2rem;
 }
 
-nav li:active {
-    color: whitesmoke;
-}
+
 
 nav a {
     vertical-align: bottom;
@@ -84,7 +82,7 @@ nav a {
 header span {
     width: 100%;
     height: 100%; 
-    margin-left: 2.5rem;
+    margin-left: 5%;
     padding-bottom: 1rem;
 }
 
@@ -93,14 +91,104 @@ header span {
     max-height: 60px;
 }
 
+.projects button:active {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.05rem;
+    display: hidden;
+}
+
+.projects button:hover {
+    color: whitesmoke;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+@media only screen and (max-width: 895px) {
+    nav li:last-child {
+      display: block;
+    }
+  
+    header {
+      padding: 1rem 1rem;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0.8rem;
+        margin: 3%;
+        height: 1.5rem;
+      }
+
+    header ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+      }
+    
+      header li {
+        padding: 1rem;
+        font-size: 0.95rem;
+      }
+  
+      #logo img {
+          max-width: 50px;
+          max-height: 50px;
+      } 
+  }
+  
+  @media only screen and (max-width: 600px) {
+    header {
+      display: block;
+      width: 100%;
+    }
+
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        height: 1.25rem;
+      }
+  
+    header ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+  
+    header li {
+      padding: 0 1rem;
+      font-size: 0.85rem;
+    }
+
+    header span {
+        width: 100%;
+        height: 100%; 
+        margin-left: 1%;
+        padding-bottom: 0.5rem;
+    }
+
+    #logo img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+  }
+
 /* All */
 
 h1, h2, h3 {
     font-family: 'Martian Mono';
 }
 
-h3 {
-    padding: 0.15rem;
+h3:hover {
+    background-color: black;
+    color: white;
+    transition: background-color 0.3 easy;
 }
 
 main {
@@ -125,9 +213,9 @@ body {
 
 #about {
     max-width: 100%;
-    padding: 0 15rem;
+    padding: 0 5%;
     line-height: 1.4;
-    margin: 3.5rem auto;
+    margin: 3.5rem 10%;
 }
 
 /* Home Container */
@@ -135,7 +223,7 @@ body {
 .home-container {
     margin: 0 auto;
     background-color: #7D7C7C;
-    color: #191717;
+    color: #F1EFEF;
     display: block;
     justify-content: center;
     align-items: space-evenly;
@@ -162,17 +250,22 @@ body {
     line-height: 1.5;
 }
 
+.projects h3, .services h3, .contact-me h3 {
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+}
+
 /* Footer */
 
 footer {
     position: relative;
-    text-align: center;
-    max-height: auto;
-    margin: 1rem 0;
-    padding: 1% 2.5rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: auto;
+    padding-top: 1%;
     background-color: #CCC8AA;
     color: #191717; 
-    width: auto;
 }
 
 .contact-options {
@@ -187,7 +280,29 @@ footer {
     display: block;
     align-self: stretch;
     width: 30%;
-    max-width: 450px;
+    max-width: 400px;
     line-height: 1.5;
 }
   
+@media only screen and (max-width: 895px) {
+    footer {
+        max-height: 300px;
+        height: auto;
+        font-size: 0.8rem;
+        margin: 2% 0;
+        max-width: 100%;
+        width: auto;
+    }
+
+    .contact-options {
+        margin: 1% auto;
+        justify-content: space-around;
+    }
+
+    .projects h3, .services h3, .contact-me h3 {
+        color: whitesmoke;
+        border-bottom: none;
+        font-size: 0.92rem;
+    }
+}
+

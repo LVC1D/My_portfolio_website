@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./main.js"></script>
+    <script type="text/JavaScript" src="./mainScript.js"></script>
     <link type="text/css" rel="stylesheet" href="./service-style.css">
     <title>Illia's Services</title>
 </head>
@@ -24,7 +24,7 @@
         </nav>
     </header>
     <main>
-        <h1>
+        <h1 class="myHeading">
             My Services!
         </h1>
             <h2>
@@ -53,6 +53,18 @@
             </div>
         </div>
         <p id="extra-phrase">Your success is my mission, and I'm here to support you every step of the way.</p>
+
+        <!-- Some JavaScript things -->
+
+        <div class="quiz-container">
+            <p>What's the cube root of 125?</p>
+            <input type="text" id="answerInput" placeholder="Enter your answer">
+            <button id="checkButton">Check Answer</button>
+            <div id="result" class="hidden"></div>
+        </div>
+
+        <!-- Footer -->
+
         <footer>
             <h2>How about we book a meet-up right now?</h2>
             <div class="contact-options">
