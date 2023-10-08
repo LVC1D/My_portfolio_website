@@ -147,47 +147,12 @@ header span {
     line-height: 1.6;
 }
 
-/* math stuff */
-
-.quiz-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    border: 3px solid #007f00;
-    border-radius: 10px;
-}
-
-#answerInput {
-    padding: 5px;
-    margin: 10px 0;
-}
-
-#checkButton {
-    padding: 8px 16px;
-    background-color: #007f00;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#checkButton:hover {
-    background-color: #005500;
-}
-
-.hidden {
-    display: none;
-}
-
 /* Footer */
 
 footer {
-    position: relative;
-  
+    position: fixed;
+    bottom: 0;
+    left: 0;
     height: auto;
     max-height: 100%;
     width: 100%;
@@ -198,7 +163,7 @@ footer {
 .contact-options {
     width: 100%;
     height: auto;
-    margin: 2% auto;
+    margin: 1% auto;
     display: inline-flex;
     justify-content: center;
 }

@@ -1,4 +1,4 @@
-let highlight = document.getElementsByClassName('menu')
+let highlight = document.getElementsByTagName('h1');
 
 const changeColor = () => {
     highlight.style.backgroundColor = "black";
